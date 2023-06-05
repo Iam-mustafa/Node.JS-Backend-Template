@@ -1,0 +1,22 @@
+{
+  "name": "template-generator-backend",
+  "version": "1.0.0",
+  "proxy": "http://localhost:7000",
+  "description": "template generation project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm run test"
+  },
+  "author": "Mustafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  }
+}
